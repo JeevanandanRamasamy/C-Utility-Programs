@@ -22,31 +22,31 @@ grep takes a string as a command-line argument and then reads from stdin until t
 
 ./grep ello
 
-Hello there             # input
+Hello there&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# input
 
-Hello there             # output
+Hello there&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# output
 
-Hi there                # input, ignored since it doesn't contain "ello"
+Hi there&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# input, ignored since it doesn't contain "ello"
 
-The sun is yellow       # input
+The sun is yellow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# input
 
-The sun is yellow       # output
+The sun is yellow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# output
 
-YELLOW                  # input, ignored since "ello" is case-sensitive
+YELLOW&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# input, ignored since "ello" is case-sensitive
 
-^D                      # close stdin
+^D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# close stdin
 
 ./grep -i ello
 
-Hello there             # input
+Hello there&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# input
 
-Hello there             # output
+Hello there&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# output
 
-YELLOW                  # input
+YELLOW&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# input
 
-YELLOW                  # output
+YELLOW&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# output
 
-^D                      # close stdin
+^D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# close stdin
 
 ## sort.c
 
@@ -62,7 +62,7 @@ donuts
 
 Banana
 
-^D                      # close stdin
+^D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# close stdin
 
 aPPLES
 
@@ -84,7 +84,7 @@ juice
 
 7
 
-^D                      # close stdin
+^D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# close stdin
 
 -3
 
@@ -104,7 +104,7 @@ juice
 
 10
 
-^D                      # close stdin
+^D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# close stdin
 
 10
 
@@ -130,7 +130,7 @@ world
 
 world
 
-^D                      # close stdin
+^D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# close stdin
 
 3 hello
 
@@ -147,7 +147,7 @@ world
 
 hello
 
-^D                      # close stdin
+^D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# close stdin
 
 1 hello
 
